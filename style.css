@@ -1,0 +1,154 @@
+
+#headerInfo { 
+    list-style: none;
+}
+
+* {
+    font-family: Helvetica;
+}
+
+h1:nth-child(2n-1),h1 {
+    font-size: 0.77em;
+    font-family: Helvetica;
+}
+
+h1,h2,.center,.daily {
+    text-align: center;
+}
+
+.subHead {
+    color: white;
+}
+
+.dotted {
+    border: olive;
+    border-style: dotted;
+}
+
+p {
+    text-align: justify;
+}
+
+#image_top, #button {
+    display: flex;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#button {
+    margin: 5px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-content: center;
+    background-color: rgb(59, 91, 65);
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+
+}
+
+h1,h2,p,img,button,ul,#button,.imgText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    color: white;
+}
+
+.contColor1,.contColor2,.contColor3,.contColor4,.contWhite {
+    padding: 20px;
+}
+
+.daily {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    body {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #image_top {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #headerInfo { 
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        align-items: center;
+    }
+    .txtPadR {
+        padding-right: 35px;
+    }
+    
+    .txtPadL {
+        padding-left: 35px;
+    }
+
+    .imgText {
+        display: flex;
+        align-items: center;
+    }
+    
+    .rowRev {
+        flex-direction: row-reverse;
+    }
+    h2,.center,.imgText {
+        width: 570px;
+    }
+
+    #image_top {
+        margin-top: -36px;
+        margin-bottom: -36px; 
+    }
+}
+
+
+.contColor1,.contColor2,.contColor3,.contColor4,ul#headerInfo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contColor1 {
+    background-color: rgb(59, 91, 65);
+}
+
+.contColor2 {
+    background-color: rgb(255, 223, 79);
+}
+
+.contColor3 {
+    background-color: rgb(150, 204, 100);
+}
+
+.contColor4 {
+    background-color: rgb(21, 193, 243);
+}
+
+.whatMore {
+    transform: rotate(-13deg)
+    
+}
